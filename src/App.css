@@ -59,6 +59,8 @@
   position: absolute;
   top: 20%;
   left: 45%;
+  text-align: center;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -66,6 +68,13 @@
   color: white;
   font-size: 1.5em;
 }
+
+.NavBar{
+  padding-top: 13px;
+  text-decoration: none;
+}
+
+
 
 .more {
   width: 150px;
@@ -83,6 +92,7 @@
   position: absolute;
   top: 60%;
   left: 45%;
+  padding-top: 14px;
 }
 
 .more:hover {
@@ -288,4 +298,19 @@ p {
   background-color: #333;
   color: #fff;
   display: inline-block;
+}
+
+
+/* glass */
+
+.glass{
+  height: 500px;
+  width: 800px;
+  margin: 200px auto;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }

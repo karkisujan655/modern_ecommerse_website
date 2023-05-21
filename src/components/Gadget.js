@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Gadget() {
   return (
-    <div class="container-fluid gb">
+    <div class="container-fluid gb" id="Gadget">
       <div className="row">
         <div className="col-lg-5 mx-auto py-5 text-center">
           <div className="se">
