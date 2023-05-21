@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router";
+import Gadget from "./Gadget.js";
+// import link1 from "./Gadget.js";
 
 export default function Services() {
   return (
@@ -14,7 +17,7 @@ export default function Services() {
       <div className="row ">
         <div className="col-lg-6 mx-auto py-5 d-flex justify-content-center">
           <div className="book ">
-            <a href="">click Here</a>
+            <a href="{Gadget}">click Here</a>
             <div className="cover">
               <p>Gadgets</p>
             </div>

@@ -244,11 +244,17 @@ p {
 
 /* boxCSS */
 
+.gb{
+  background-color: #21595e;
+  color: aliceblue;
+  height: 1100px;
+}
+
 .box {
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
-  height: 350px;
+  height: 360px;
   width: 360px;
 
 }
@@ -257,7 +263,13 @@ p {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  border-radius: 5%;
 }
+
+.item img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+ }
 
 .buy-now {
   margin-top: 10px;

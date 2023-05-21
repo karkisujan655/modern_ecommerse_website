@@ -1,8 +1,9 @@
 import React from "react";
 
+
 export default function Gadget() {
   return (
-    <div class="container-fluid a">
+    <div class="container-fluid gb">
       <div className="row">
         <div className="col-lg-5 mx-auto py-5 text-center">
           <div className="se">
@@ -11,8 +12,30 @@ export default function Gadget() {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-4 ">
-          <div class="box text-center">
+        <div className="col-lg-4 d-flex justify-content-center align-items-center">
+          <div class="box ">
+            <div class="item">
+              <img src="/images/Monitor.jpg" alt="" />
+              <h6>New Oled Monitor 44.0"</h6>
+            </div>
+            <button class="buy-now">Buy Now</button>
+            <div class="cart"></div>
+          </div>
+        </div>
+        
+        <div className="col-lg-4 d-flex justify-content-center align-items-center">
+          <div class="box ">
+            <div class="item">
+              <img src="" alt="" />
+              <h6>hello This is me</h6>
+            </div>
+            <button class="buy-now">Buy Now</button>
+            <div class="cart"></div>
+          </div>
+        </div>        
+        
+        <div className="col-lg-4 d-flex justify-content-center align-items-center">
+          <div class="box ">
             <div class="item">
               <img src="" alt="" />
               <h6>hello This is me</h6>
@@ -21,9 +44,43 @@ export default function Gadget() {
             <div class="cart"></div>
           </div>
         </div>
-        <div className="col-lg-4 text-center">hello</div>
-        <div className="col-lg-4 text-center">hello</div>
       </div>
+
+      <div className="row py-5">
+        <div className="col-lg-4 d-flex justify-content-center align-items-center py-5">
+          <div class="box ">
+            <div class="item">
+              <img src="" alt="" />
+              <h6>hello This is me</h6>
+            </div>
+            <button class="buy-now">Buy Now</button>
+            <div class="cart"></div>
+          </div>
+        </div>
+        
+        <div className="col-lg-4 d-flex justify-content-center align-items-center">
+          <div class="box ">
+            <div class="item">
+              <img src="" alt="" />
+              <h6>hello This is me</h6>
+            </div>
+            <button class="buy-now">Buy Now</button>
+            <div class="cart"></div>
+          </div>
+        </div>        
+        
+        <div className="col-lg-4 d-flex justify-content-center align-items-center">
+          <div class="box ">
+            <div class="item">
+              <img src="" alt="" />
+              <h6>hello This is me</h6>
+            </div>
+            <button class="buy-now">Buy Now</button>
+            <div class="cart"></div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
