@@ -254,19 +254,26 @@ p {
 
 /* boxCSS */
 
-.gb{
+.gb {
   background-color: #21595e;
   color: aliceblue;
   height: 1100px;
 }
 
 .box {
-  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  transition: all 0.3s ease;
   padding: 20px;
   text-align: center;
   height: 360px;
   width: 360px;
+  background-color: #27646c;
+}
 
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 50px rgba(249, 248, 113, 0.3);
 }
 
 .item img {
@@ -279,20 +286,29 @@ p {
 .item img:hover {
   transform: translateY(-25%);
   box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
- }
+  width: 220px;
+  height: 220px;
+}
 
 .buy-now {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #ff6600;
-  color: #fff;
+  background-color: #21595e;
+  color: aliceblue;
   border: none;
-  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+  font-size: 18px;
+  background-color: #194c52;
 }
 
 .cart {
   margin-top: 10px;
+  margin-left: 20px;
   width: 30px;
   height: 30px;
   background-color: #333;

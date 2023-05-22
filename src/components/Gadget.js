@@ -15,7 +15,7 @@ export default function Gadget() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <div class="box ">
             <div class="item">
-              <img src="/images/Monitor.jpg" alt="" />
+              <img src="/images/mmonitors.png" alt="" />
               <h6>New Oled Monitor 44.0"</h6>
             </div>
             <button class="buy-now">Buy Now</button>
@@ -26,7 +26,7 @@ export default function Gadget() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <div class="box ">
             <div class="item">
-              <img src="" alt="" />
+              <img src="/images/phones.jpg" alt="" />
               <h6>hello This is me</h6>
             </div>
             <button class="buy-now">Buy Now</button>
@@ -37,7 +37,7 @@ export default function Gadget() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <div class="box ">
             <div class="item">
-              <img src="" alt="" />
+              <img src="/images/buds.jpg" alt="" />
               <h6>hello This is me</h6>
             </div>
             <button class="buy-now">Buy Now</button>
@@ -50,7 +50,7 @@ export default function Gadget() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center py-5">
           <div class="box ">
             <div class="item">
-              <img src="" alt="" />
+              <img src="/images/tv.jpg" alt="" />
               <h6>hello This is me</h6>
             </div>
             <button class="buy-now">Buy Now</button>
@@ -61,7 +61,7 @@ export default function Gadget() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <div class="box ">
             <div class="item">
-              <img src="" alt="" />
+              <img src="/images/sp.jpg" alt="" />
               <h6>hello This is me</h6>
             </div>
             <button class="buy-now">Buy Now</button>
@@ -72,7 +72,7 @@ export default function Gadget() {
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
           <div class="box ">
             <div class="item">
-              <img src="" alt="" />
+              <img src="/images/drone.webp" alt="" />
               <h6>hello This is me</h6>
             </div>
             <button class="buy-now">Buy Now</button>
