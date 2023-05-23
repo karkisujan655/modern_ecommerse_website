@@ -25,9 +25,9 @@ export default function Services() {
 
         <div className="col-lg-6 mx-auto  py-5 d-flex justify-content-center">
           <div className="book ">
-            <a href="">Click Here</a>
+            <a href="#Itservices">Click Here</a>
             <div className="cover">
-              <p>IT Services</p>
+              <p>Web Services</p>
             </div>
           </div>
         </div>
