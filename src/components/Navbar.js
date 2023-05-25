@@ -6,7 +6,16 @@ export default function Navbar() {
       <div className="row justify-content-center">
         <div className="col-md-8">
           <div className="glass" id="Navbar">
-            {/* Navbar content */}
+            <div className="d-flex justify-content-center ">
+              <div className="col-md-12 text-center ">
+                <div className="navv">
+                <a href="/" className="d-block">Home</a>
+                <a href="/" className="d-block">Gadgets</a>
+                <a href="/" className="d-block">Web Services</a>
+                <a href="/" className="d-block">About Us</a>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

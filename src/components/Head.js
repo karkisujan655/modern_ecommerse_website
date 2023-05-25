@@ -27,7 +27,7 @@ export default function Head() {
           House
         </h1>
       </div>
-      <a href="#Navbar" className="button more">
+      <a href="#Services" className="button more">
         Learn More
       </a>
 
