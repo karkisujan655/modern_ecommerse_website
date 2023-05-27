@@ -335,7 +335,7 @@ p {
 
 /* glass */
 
-.glass{
+.glass {
   height: 500px;
   width: 800px;
   margin: 180px auto;
@@ -355,12 +355,13 @@ p {
   }
 }
 
-/* navbar */
+/* Navbar */
 .navv {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  width: 500px;
 }
 
 .navv a {
@@ -370,15 +371,23 @@ p {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  font-weight: bolder;
-  border-radius: 4px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
   transition: background-color 0.3s ease;
 }
 
 .navv a:hover {
-  background-color: #f0f0f0;
-  border-radius: 1rem;
-  color: #257f57;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #173f2d;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.icon1{
+  font-size: 24px;
+  margin-right: 10px;
 }
 
 
