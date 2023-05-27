@@ -405,9 +405,23 @@ p {
 }
 
 .cancel-btn:hover {
-  color: #f0f0f0;
+  color: rgb(240, 96, 96);
+  font-size: 22px;
+  font-weight: bold;
 }
 
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-animation {
+  animation: rotate360 2s linear infinite;
+}
 
 
 

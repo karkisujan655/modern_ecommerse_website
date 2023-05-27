@@ -5,8 +5,10 @@ import { TbWorld } from "react-icons/tb";
 import { AiOutlineAliwangwang } from "react-icons/ai";
 import { IoPeopleOutline } from "react-icons/io5";
 import { BsCameraVideo } from "react-icons/bs";
+import { ImCancelCircle } from "react-icons/im";
 
 export default function Navbar() {
+  
   return (
     <div className="container-fluid">
       <div className="row justify-content-center">
@@ -14,7 +16,7 @@ export default function Navbar() {
           <div class="glass" id="Navbar">
             <div class="cancel-button">
               <button class="cancel-btn" onclick="scrollToHead()">
-                Cancel
+              <span class="icon1"><ImCancelCircle /></span>
               </button>
             </div>
             <div class="d-flex justify-content-center">
@@ -76,4 +78,5 @@ export default function Navbar() {
       </div>
     </div>
   );
+  
 }
