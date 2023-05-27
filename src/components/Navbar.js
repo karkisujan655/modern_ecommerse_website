@@ -12,37 +12,60 @@ export default function Navbar() {
       <div className="row justify-content-center">
         <div className="col-md-8">
           <div class="glass" id="Navbar">
+            <div class="cancel-button">
+              <button class="cancel-btn" onclick="scrollToHead()">
+                Cancel
+              </button>
+            </div>
             <div class="d-flex justify-content-center">
               <div class="navv">
                 <div class="row">
                   <div class="col-md-6 text-center">
                     <a href="/" class="d-block">
-                    <span class="icon1"><AiFillHome /></span>  Home
+                      <span class="icon1">
+                        <AiFillHome />
+                      </span>{" "}
+                      Home
                     </a>
                   </div>
                   <div class="col-md-6 text-center">
                     <a href="/" class="d-block">
-                    <span class="icon1"><TbDeviceTvOld /></span>  Gadgets
+                      <span class="icon1">
+                        <TbDeviceTvOld />
+                      </span>{" "}
+                      Gadgets
                     </a>
                   </div>
                   <div class="col-md-6 text-center py-5">
                     <a href="/" class="d-block">
-                    <span class="icon1"><TbWorld /></span>   Web Services
+                      <span class="icon1">
+                        <TbWorld />
+                      </span>{" "}
+                      Web Services
                     </a>
                   </div>
                   <div class="col-md-6 text-center py-5">
                     <a href="/" class="d-block">
-                    <span class="icon1"><AiOutlineAliwangwang /></span> About Us
+                      <span class="icon1">
+                        <AiOutlineAliwangwang />
+                      </span>{" "}
+                      About Us
                     </a>
                   </div>
                   <div class="col-md-6 text-center">
                     <a href="/" class="d-block">
-                    <span class="icon1"><IoPeopleOutline /></span>  Contact Us
+                      <span class="icon1">
+                        <IoPeopleOutline />
+                      </span>{" "}
+                      Contact Us
                     </a>
                   </div>
                   <div class="col-md-6 text-center">
                     <a href="/" class="d-block">
-                    <span class="icon1"><BsCameraVideo /></span>  Videos
+                      <span class="icon1">
+                        <BsCameraVideo />
+                      </span>{" "}
+                      Videos
                     </a>
                   </div>
                 </div>
