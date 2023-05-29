@@ -7,7 +7,7 @@ import { IoPeopleOutline } from "react-icons/io5";
 import { BsCameraVideo } from "react-icons/bs";
 import { ImCancelCircle } from "react-icons/im";
 
-export default function Navbar() {
+export default function Navbar({handleNavClick}) {
   
   return (
     <div className="container-fluid">
@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="col-md-8">
           <div class="glass" id="Navbar">
             <div class="cancel-button">
-              <button class="cancel-btn" onclick="scrollToHead()">
+              <button class="cancel-btn" onClick={handleNavClick}>
               <span class="icon1"><ImCancelCircle /></span>
               </button>
             </div>

@@ -6,7 +6,7 @@ export default function Head() {
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleNavClick = () => {
-    setShowNavbar(!showNavbar);
+    setShowNavbar(prev=>!prev);
   };
 
   return (
@@ -31,7 +31,7 @@ export default function Head() {
         Learn More
       </a>
 
-      {showNavbar && <Navbar />}
+      {showNavbar && <Navbar handleNavClick={handleNavClick}/>}
     </div>
   );
 }
