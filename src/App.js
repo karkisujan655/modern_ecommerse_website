@@ -5,13 +5,12 @@ import Services from './components/Services';
 import Background from './components/Background';
 import Itservices from './components/Itservices';
 import Contact from './components/Contact';
-
-// import Apicall from './components/Apicall';
+import Apicall from './components/Apicall';
 
 function App() {
   return(
     <>
-    
+    <Apicall/>
     <Head/>
     <Services/>
     <Gadget/>
