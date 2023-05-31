@@ -31,7 +31,7 @@ export default function Navbar({handleNavClick}) {
                     </a>
                   </div>
                   <div class="col-md-6 text-center">
-                    <a href="/" class="d-block">
+                    <a href="#Gadget" class="d-block">
                       <span class="icon1">
                         <TbDeviceTvOld />
                       </span>{" "}
@@ -39,7 +39,7 @@ export default function Navbar({handleNavClick}) {
                     </a>
                   </div>
                   <div class="col-md-6 text-center py-5">
-                    <a href="/" class="d-block">
+                    <a href="#Itservices" class="d-block">
                       <span class="icon1">
                         <TbWorld />
                       </span>{" "}
